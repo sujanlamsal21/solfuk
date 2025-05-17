@@ -4,7 +4,7 @@ import json
 import time
 
 MAINNET = "https://api.mainnet-beta.solana.com"
-LOCAL = "http://localhost:8899"
+LOCAL = "http://127.0.0.1:8899"
 PAYLOAD = {"jsonrpc":"2.0","id":1, "method":"getSlot", "params":[{"commitment":"processed"}]}
 
 def get_slot(req, jsondata, result, idx):

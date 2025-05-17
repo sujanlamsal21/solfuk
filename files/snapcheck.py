@@ -3,7 +3,7 @@ import threading
 import json
 import time
 
-LOCAL = "http://localhost:8899"
+LOCAL = "http://127.0.0.1:8899"
 PAYLOAD = {"jsonrpc":"2.0","id":1,"method":"getHighestSnapshotSlot"} 
 
 def get_snap_slot(req, jsondata):

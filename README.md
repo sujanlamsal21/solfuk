@@ -99,7 +99,7 @@ Ledger location: /mnt/solana-ledger
 #### Check whether the RPC is caught up with the rest of the cluster with:
 
 ```
-solana catchup --our-localhost
+solana catchup --our-127.0.0.1
 ```
 
 If you see the message above, then everything is working fine! Gratz. You have a new RPC server and you can visit the URL at http://xx.xx.xx.xx:8899/
