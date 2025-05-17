@@ -1,0 +1,7 @@
+---
+# defaults file for Solana RPC
+solana_version: "v2.1.22"
+ledger_disk: "nvme1n1"
+setup_disks: "true"
+download_snapshot: "true"
+swap_mb: "100000"
